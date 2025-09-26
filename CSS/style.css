@@ -1,0 +1,90 @@
+
+h1, h2, h3 {
+  color: #ffffff;
+}
+
+h5 {
+  color: #FF9B00 !important;
+  text-shadow: 0 0 10px rgb(79, 79, 79);
+}
+
+p {
+  color: #ffffff !important;
+  font-size: 1rem;
+}
+
+.portfolio-title, h1 {
+  color: #FF9B00 !important;
+  text-shadow: 0 0 20px rgb(79, 79, 79);
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.portfolio-subtext {
+  font-size: 1rem;                
+  color: #C0C0C0;                    
+  text-shadow: 0 0 10px rgba(0,0,0,.6); 
+  font-style: italic;                
+  letter-spacing: 1px;               
+}
+
+.portfolio-border {
+  color: #fff;
+  letter-spacing: 5px;
+  border-bottom: 3px solid #C0C0C0;
+  display: inline-block;
+  padding-bottom: 8px;
+}
+
+.card {
+  background-color: #000 !important;
+}
+
+.hover:hover {
+  border: solid #FF9B00 !important;
+  box-shadow: 0 0 40px 10px #222, 0 0 20px 5px #fff;
+  transform: scale(1.03);
+  transition: 0.3s ease;
+}
+
+.card-group {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.card-group .card {
+  margin: 0 16px;
+}
+
+.card-img-top {
+  height: 250px;
+  object-fit: cover;
+}
+
+.card-body p {
+  margin-bottom: 20px;
+}
+
+.footer {
+  background-color: #000;
+  text-align: center;
+  padding: 32px 0 16px 0;
+  width: 100%;
+  margin-top: 48px;
+  border-top: 2px solid #222;
+}
+
+.footer .nav-link {
+  color: rgba(255, 255, 255, 0.55);
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.footer .nav-link:hover,
+.footer .nav-link:focus {
+  color: #fff;
+}
+
+.footer .nav-link.active {
+  color: #fff;
+}
